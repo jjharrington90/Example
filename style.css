@@ -1,17 +1,27 @@
-body {
-  background: #f6f7fb;
-  font-family: 'Open Sans', sans-sans-serif;
-  font-size: 16px;
-  color: #333;
-  line-height: 1.7em;
-  }
+  body {
+    background: #f6f7fb;
+    font-family: 'Open Sans', sans-sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.7em;
+    display: block;
+    }
 
   /* Footer */
 
-.pb100 {
-  padding-bottom: 100px;
-  }
+  .div {
+    display: block;
+    }
 
-.pt100 {
-  padding-top: 100px;
-  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+
+  .pb100 {
+    padding-bottom: 100px;
+    }
+
+  .pt100 {
+    padding-top: 100px;
+    }
