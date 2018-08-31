@@ -8,7 +8,10 @@
     }
 
   /* Footer */
-
+  #footer {
+    display: block;
+    }
+    
   .div {
     display: block;
     }
