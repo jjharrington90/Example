@@ -7,11 +7,15 @@
     display: block;
     }
 
+  .container {
+    margin: 0px auto;
+   }
+
   /* Footer */
   #footer {
     display: block;
     }
-    
+
   .div {
     display: block;
     }
