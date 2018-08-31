@@ -25,6 +25,14 @@
     margin-left: -15px;
     }
 
+    .social-icons {
+      margin-bottom: 15px;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
   .pb100 {
     padding-bottom: 100px;
     }
