@@ -1,0 +1,80 @@
+/* Paste Google fonts here*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik');
+
+  body {
+    background: #e0e0e0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.7em;
+    display: block;
+    padding: 0;
+    margin: 0;
+    }
+
+   /* Nav Bar */
+   .navbar {
+     background-color: #212121;
+     }
+
+   .nav-brand {
+     text-decoration: none;
+     }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+  .nav-link {
+    font-size: 1.2em;
+    margin: 18px;
+    color: white !important;
+    font-family: 'Rubik', sans-serif;
+    }
+
+  .nav-link:hover {
+    color: red !important;
+    transition: all 300ms ease-in;
+    }
+
+  .active .nav-link {
+    color: red !important;
+    }
+
+ .dropdown-item:hover {
+   background-color: #212121;
+   color: white;
+ }
+
+  /* Footer */
+
+  #footer {
+    display: block;
+    background-color: #484848;
+    color: white;
+    font-size: 14px;
+    }
+
+  .social-icons {
+    margin-bottom: 15px;
+    }
+
+  .social-icons a {
+    text-decoration: none;
+    color: inherit;
+    }
+
+  .social-icons a:hover {
+    color: red;
+    transition: all 300ms ease-in;
+    }
+
+
+  .pb100 {
+    padding-bottom: 100px;
+    }
+
+  .pt100 {
+    padding-top: 100px;
+    }
