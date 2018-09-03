@@ -18,39 +18,40 @@
      background-color: #212121;
      }
 
-   a .nav-brand .ml-4:hover {
+   .navbar-brand ml-4:hover {
      color: red;
      }
 
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
 
-  .nav-link {
+   .nav-link {
     font-size: 1.2em;
     margin: 18px;
     color: white !important;
     font-family: 'Rubik', sans-serif;
     }
 
-  .nav-link:hover {
+   .nav-link:hover {
     color: red !important;
     transition: all 300ms ease-in;
     }
 
-  .active .nav-link {
+   .active .nav-link {
     color: red !important;
     }
 
- .dropdown-item:hover {
-   background-color: #212121;
-   color: white;
-   }
+   .dropdown-item:hover {
+    background-color: #212121;
+    color: white;
+    }
 
  /* Intro Section - Jumbotron */
 
- .round-img {
-   border-radius: 50%;
+  .round-img {
+   -webkit-clip-path: circle(50% at 50% 50%);
+   clip-path: circle(45.4% at 50% 50%);
    max-width: 200px;
    height: auto;
    display: block;
@@ -59,19 +60,7 @@
    margin-bottom: 50px;
    }
 
-.box-shape {
-  z-index: -1;
-  top: 150px;
-  width: 200px;
-  height: 200px;
-  background-color: #212121;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  }
-
- .display-4 {
+  .display-4 {
    font-family: Rubik;
    text-align: center;
    }
@@ -80,19 +69,19 @@
     font-size: 18px;
     }
 
-   .resume-btn {
-     background-color: #212121;
-     text-decoration: none;
-     padding: 10px 25px 10px 25px;
-     border-radius: 5px;
-     color: white;
-     margin-top: 20px;
-     }
+  .resume-btn {
+    background-color: #212121;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    }
 
    .resume-btn:hover {
-     color: red;
-     transition: all 300ms ease-in;
-     }
+    color: red;
+    transition: all 300ms ease-in;
+    }
 
   /* Footer */
 
@@ -116,7 +105,6 @@
     color: red;
     transition: all 300ms ease-in;
     }
-
 
   .pb100 {
     padding-bottom: 100px;
