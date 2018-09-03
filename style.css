@@ -18,8 +18,8 @@
      background-color: #212121;
      }
 
-   .nav-brand {
-     text-decoration: none;
+   a .nav-brand .ml-4:hover {
+     color: red;
      }
 
     .navbar-toggler-icon {
@@ -48,8 +48,31 @@
    }
 
  /* Intro Section - Jumbotron */
+
+ .round-img {
+   border-radius: 50%;
+   max-width: 200px;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+   }
+
+.box-shape {
+  z-index: -1;
+  top: 150px;
+  width: 200px;
+  height: 200px;
+  background-color: #212121;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+
  .display-4 {
-   font-family: 'Rubik', sans-serif;
+   font-family: Rubik;
    text-align: center;
    }
 
