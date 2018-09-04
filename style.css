@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik');
 
   body {
+    position: relative;
     background: #e0e0e0;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -20,9 +21,20 @@
      z-index: 2;
      }
 
-   .navbar-brand ml-4:hover {
-     color: red;
+   #nav-brand {
+     color: #e0e0e0;
+     letter-spacing: 3px;
+     font-family: Parisienne, cursive;
+     font-size: 25px;
+     font-weight: bolder;
+     text-decoration: underline;
      }
+
+   #nav-brand:hover {
+     color: red;
+     transition: all 300ms ease-in;
+     }
+
 
    .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -51,27 +63,27 @@
 
  /* Intro Section - Jumbotron */
 
-  .round-img {
-   -webkit-clip-path: circle(50% at 50% 50%);
-   clip-path: circle(45.4% at 50% 50%);
-   max-width: 200px;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 50px;
-   margin-top: 60px;
-   }
-
-  .display-4 {
-   font-family: Rubik;
-   text-align: center;
-   }
-
-  .lead {
-    font-size: 18px;
+   .round-img {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(45.4% at 50% 50%);
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 60px;
     }
 
-  .resume-btn {
+   .display-4 {
+    font-family: Rubik;
+    text-align: center;
+    }
+
+   .lead {
+    font-size: 22px;
+    }
+
+   .resume-btn {
     background-color: #212121;
     text-decoration: none;
     padding: 10px 25px 10px 25px;
@@ -87,38 +99,42 @@
 
   /* About Section */
 
-  #about-me {
-    height: auto;
-    padding-bottom: 50px;
-  }
+   #about-me {
+    height: 100%;
+    padding-bottom: 35px;
+    }
+
+    .about-text {
+      font-size: 18px;
+    }
 
   /* Footer */
 
-  #footer {
+   #footer {
     display: block;
     background-color: #484848;
     color: white;
     font-size: 14px;
     }
 
-  .social-icons {
+   .social-icons {
     margin-bottom: 15px;
     }
 
-  .social-icons a {
+   .social-icons a {
     text-decoration: none;
     color: inherit;
     }
 
-  .social-icons a:hover {
+   .social-icons a:hover {
     color: red;
     transition: all 300ms ease-in;
     }
 
-  .pb100 {
+   .pb100 {
     padding-bottom: 100px;
     }
 
-  .pt100 {
+   .pt100 {
     padding-top: 100px;
     }
