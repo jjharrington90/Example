@@ -181,6 +181,7 @@
     padding: 50 50 50 50;
     width: 150px;
     color: black;
+    border: #212121 solid 1px;
     letter-spacing: 1px;
     font-size: 1.1em;
     font-family: 'Montserrat' serif;
