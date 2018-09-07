@@ -91,7 +91,7 @@
     font-size: 18px;
     background-color: #212121;
     text-decoration: none;
-    padding: 10px 25px 10px 25px;
+    padding: 12px 25px 10px 25px;
     border-radius: 5px;
     color: white;
     margin-top: 10px;
@@ -146,4 +146,28 @@
 
    .pt100 {
     padding-top: 65px;
+    }
+
+
+/* Contact Form on Contact Page contact.html */
+
+  .contact-me {
+    margin-top: 125px;
+    font-family: Montserrat !important;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: underline;
+    }
+
+  .lead-contact {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Pridi' serif;
+    font-weight: 400;
+    margin: 30px 150px 0px 150px;
+    padding: 0 20 0 20;
+    }
+
+  .email-form {
+    background-color: #212121;
     }
