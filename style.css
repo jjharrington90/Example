@@ -42,10 +42,9 @@
     }
 
    .nav-link {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 15px;
     color: white !important;
-    font-family: 'Montserrat', sans-serif;
     }
 
    .nav-link:hover {
@@ -244,7 +243,7 @@
     }
 
   .btn:hover {
-   color: #e0e0e0;
+   color: white;
    background-color: #212121;
    transition: all 200ms ease-in;
    }
