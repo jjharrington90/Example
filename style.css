@@ -119,16 +119,26 @@
     margin-top: 10px;
     }
 
-    .about-btn:hover {
-     color: red;
-     transition: all 300ms ease-in;
-     }
+   .about-btn:hover {
+    color: red;
+    transition: all 300ms ease-in;
+    }
 
   /* About Page */
+   #about-pic {
+    float: left;
+    margin-top: 10px;
+    height: auto;
+    max-width: 100%;
+    }
+
+   .paragraph-1 {
+    margin-top: 35px;
+    }
 
    #about-me {
     height: 100%;
-    padding-bottom: 35px;
+    margin: 150px 25px 0 25px;
     }
 
    .about {
@@ -137,6 +147,11 @@
 
    .about-text {
     font-size: 18px;
+    margin: 0 50px 0 50px;
+    }
+
+   #about-me2 {
+    margin: 0 90px 50px 90px;
     }
 
   /* Footer */
