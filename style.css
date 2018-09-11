@@ -148,7 +148,7 @@
 
    #about-me {
     height: 100%;
-    margin: 150px 25px 0 25px;
+    margin: 150px 55px 0 25px;
     }
 
    .about {
@@ -161,7 +161,7 @@
     }
 
    #about-me2 {
-    margin: 25px 120px 50px 120px;
+    margin: 25px 120px 80px 120px;
     }
 
     .d-block {
@@ -184,10 +184,16 @@
           text-align: center;
           }
 
+      #about-me {
+        margin: 150px 20px 0 20px;
+
+        }
+
       #about-me2 {
+
         margin: 25px 20px 50px 20px;
         }
-    }
+      }
 
   /* Footer */
 
