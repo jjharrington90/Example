@@ -65,7 +65,7 @@
     .jumbotron {
       margin: 30px 0px 50px 0;
       background: linear-gradient(
-                     rgba(25,25,25, .8),
+                     rgba(25,25,25, .7),
                      rgba(20,20,20, .5)),
                      url('img/atlanta.jpg') no-repeat fixed;
       background-repeat: no-repeat;
@@ -92,10 +92,11 @@
    #resume-btn {
     position: relative;
     font-size: 18px;
-    background-color: #212121;
+    background-color: black;
     text-decoration: none;
     color: white;
     margin: 30px 25px 0 0;
+    border: solid 1px white;
     }
 
    #resume-btn:hover {
@@ -106,10 +107,11 @@
    #about-btn {
     position: relative;
     font-size: 18px;
-    background-color: #212121;
+    background-color: black;
     text-decoration: none;
     color: white;
     margin: 30px 0 0 25px;
+    border: solid 1px white;
     }
 
    #about-btn:hover {
