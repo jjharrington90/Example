@@ -138,7 +138,7 @@
 
     #projects {
       text-align: center;
-      
+
       }
 
   /* About Page */
@@ -236,7 +236,10 @@
 
 /* Contact Form on Contact Page */
   #contact {
-   background: url('img/contactpage.jpg') no-repeat center center fixed;
+   background: linear-gradient(
+                  rgba(25,25,25, 1),
+                  rgba(20,20,20, .6)),
+                  url('img/contactpage.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
