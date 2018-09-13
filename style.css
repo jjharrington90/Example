@@ -61,15 +61,14 @@
     color: white;
     }
 
- /* Intro Section - Jumbotron */
+/* Intro Section - Jumbotron */
+
     .jumbotron {
       margin: 30px 0px 50px 0;
       background: linear-gradient(
-                     rgba(69,72,77, 1) 0%,
-                     rgba(0,0,0, .6) 10%),
+                     rgba(0,0,27, 1) 0%,
+                     rgba(0,0,0, .6) 70%),
                      url('img/atlanta.jpg') no-repeat fixed;
-      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-      filter: grayscale(100%);
       background-repeat: no-repeat;
       background-position: fixed;
       }
@@ -80,6 +79,10 @@
     font-family: 'Parisienne';
     font-weight: 600;
     color: #e0e0e0;
+    }
+
+  .display-4:hover {
+    color: red;
     }
 
    .lead {
@@ -104,12 +107,9 @@
     border: solid 1px white;
     }
 
-   #resume-btn:hover {
-    background-color: red;
-    }
 
    .resume:hover {
-    color: white;
+    color: red;
     text-decoration: none;
     transition: all 300ms ease-in;
     }
@@ -129,15 +129,11 @@
     }
 
    .about:hover {
-    color: white;
+    color: red;
     text-decoration: none;
     transition: all 300ms ease-in;
     }
-    
-   #about-btn:hover {
-    background-color: red;
-    transition: all 300ms ease-in;
-    }
+
 
       @media only screen and (max-width: 400px) {
 
@@ -269,12 +265,13 @@
   #contact {
    background: linear-gradient(
                   rgba(25,25,25, 1),
-                  rgba(20,20,20, .6)),
-                  url('img/contactpage.jpg') no-repeat center center fixed;
+                  rgba(0,0,0, .4)),
+                  url('img/unsplash.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+   filter: grayscale(100%);
    }
 
   .contact-me {
@@ -293,7 +290,6 @@
     font-family: 'Pridi' serif;
     font-weight: 400;
     margin: 30px 0 0 0;
-    padding: 0 20 0 20;
     }
 
   .btn {
@@ -316,3 +312,11 @@
   #email-form {
     margin-bottom: 50px;
     }
+
+      @media only screen and (max-width: 400px) {
+        .lead-contact {
+          font-size: 15px;
+          margin-top: 5px;
+          padding: 0;
+        }
+       }
