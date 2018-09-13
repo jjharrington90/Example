@@ -132,6 +132,16 @@
           font-size: 16px;
           margin: 10px 15px 0 15px;
           }
+
+          #resume-btn {
+            margin-left: 0;
+            width: 100%;
+          }
+
+          #about-btn {
+            margin-right: 0;
+            width: 100%;
+          }
         }
 
   /* Project Section - Home Page */
@@ -197,7 +207,6 @@
         }
 
       #about-me2 {
-
         margin: 25px 20px 50px 20px;
         }
       }
