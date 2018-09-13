@@ -5,7 +5,6 @@
    body {
     position: relative;
     background: #e0e0e0;
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #333;
     line-height: 1.7em;
@@ -17,8 +16,6 @@
    /* Nav Bar - To do: Add more width at smallest screen size */
     .navbar {
      background-color: #212121;
-     width: 100%;
-     height: auto;
      z-index: 2;
      }
 
@@ -42,6 +39,7 @@
     }
 
    .nav-link {
+    font-family: 'Montserrat';
     font-size: 1.1em;
     margin: 15px;
     color: white !important;
@@ -64,13 +62,10 @@
 /* Intro Section - Jumbotron */
 
     .jumbotron {
-      margin: 30px 0px 50px 0;
-      background: linear-gradient(
-                     rgba(0,0,27, 1) 0%,
-                     rgba(0,0,0, .6) 70%),
-                     url('img/atlanta.jpg') no-repeat fixed;
-      background-repeat: no-repeat;
-      background-position: fixed;
+      margin: 30px 0 50px 0;
+      background: url('img/atl.png') no-repeat center fixed;
+      opacity: .9;
+      background-size: cover;
       }
 
    .display-4 {
@@ -83,6 +78,7 @@
 
   .display-4:hover {
     color: red;
+    transition: all 300ms ease-in;
     }
 
    .lead {
@@ -95,6 +91,7 @@
     }
 
   .resume {
+    font-family: 'Montserrat';
     text-decoration: none;
     color: white;
     }
@@ -115,6 +112,7 @@
     }
 
   .about {
+    font-family: 'Montserrat';
     text-decoration: none;
     color: white;
     }
@@ -129,6 +127,7 @@
     }
 
    .about:hover {
+    cursor pointer-events: pointer;
     color: red;
     text-decoration: none;
     transition: all 300ms ease-in;
@@ -164,9 +163,9 @@
 
   /* Project Section - Home Page */
 
-    #projects {
+    .projects {
       text-align: center;
-
+      margin-bottom: 80px;
       }
 
   /* About Page */
@@ -187,7 +186,8 @@
     }
 
    .who-is {
-    font-weight: bolder !important;
+     font-family: 'Montserrat';
+    font-weight: bold !important;
     color: black;
     }
 
@@ -303,8 +303,8 @@
 /* Contact Form on Contact Page */
   #contact {
    background: linear-gradient(
-                  rgba(25,25,25, 1),
-                  rgba(0,0,0, .4)),
+                  rgba(25,25,25, 1)0%,
+                  rgba(0,0,0, .6)100%),
                   url('img/unsplash.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
