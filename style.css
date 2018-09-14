@@ -13,25 +13,25 @@
     margin: 0;
     }
 
-   /* Nav Bar - To do: Add more width at smallest screen size */
-    .navbar {
-     background-color: #212121;
-     z-index: 2;
-     }
+  /* Nav Bar - To do: Add more width at smallest screen size */
+   .navbar {
+    background-color: #212121;
+    z-index: 2;
+    }
 
-    #nav-brand {
-     color: #e0e0e0;
-     letter-spacing: 3px;
-     font-family: Parisienne, cursive;
-     font-weight: bolder;
-     font-size: 25px;
-     text-decoration: underline;
-     }
+   #nav-brand {
+    color: #e0e0e0;
+    letter-spacing: 3px;
+    font-family: Parisienne, cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: underline;
+    }
 
-    #nav-brand:hover {
-     color: red;
-     transition: all 300ms ease-in;
-     }
+   #nav-brand:hover {
+    color: red;
+    transition: all 300ms ease-in;
+    }
 
 
    .navbar-toggler-icon {
@@ -61,12 +61,12 @@
 
 /* Intro Section - Jumbotron */
 
-    .jumbotron {
-      margin: 30px 0 50px 0;
-      background: url('img/atl.png') no-repeat center fixed;
-      opacity: .9;
-      background-size: cover;
-      }
+  .jumbotron {
+    margin: 30px 0 50px 0;
+    background: url('img/atl.png') no-repeat center fixed;
+    height: 450px;
+    background-size: cover;
+    }
 
    .display-4 {
     margin-top: 80px;
@@ -163,10 +163,10 @@
 
   /* Project Section - Home Page */
 
-    .projects {
-      text-align: center;
-      margin-bottom: 80px;
-      }
+  .projects {
+    text-align: center;
+    margin-bottom: 80px;
+    }
 
   /* About Page */
    #about-pic {
@@ -186,7 +186,7 @@
     }
 
    .who-is {
-     font-family: 'Montserrat';
+    font-family: 'Montserrat';
     font-weight: bold !important;
     color: black;
     }
@@ -215,14 +215,14 @@
         margin: 0 auto;
         }
 
-        .about {
-          margin-top: 55px;
-          text-align: center;
-          }
+      .who-is {
+        font-size: 32px;
+        margin-top: 25px;
+        text-align: center;
+        }
 
       #about-me {
         margin: 150px 20px 0 20px;
-
         }
 
       #about-me2 {
@@ -256,6 +256,7 @@
           grid-auto-rows: 50vw;
           }
         }
+
       @media (max-width: 400px){
         .photo-gallery {
           grid-template-columns: 1fr;
@@ -357,5 +358,10 @@
           font-size: 15px;
           margin-top: 5px;
           padding: 0;
+        }
+
+        #contact {
+          background-size: contain;
+          background-color: transparent;
         }
        }
