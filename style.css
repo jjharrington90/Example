@@ -57,9 +57,6 @@
     color: white;
     }
 
-    @media only screen and (max-width: 375px) {
-      #nav-brand { font-size: 16px; }
-    }
 
 /* Intro Section - Jumbotron */
 
@@ -86,7 +83,7 @@
     margin-top: 25px;
     text-align: center;
     spacing: 3px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Raleway';
     font-weight: lighter;
     }
@@ -144,7 +141,7 @@
 
         .display-4 {
           margin-top: 125px;
-          font-size: 35px;
+          font-size: 30px;
           }
 
         .lead {
@@ -160,6 +157,7 @@
           #about-btn {
             margin-right: 0;
             width: 100%;
+            padding: 0;
           }
         }
 
