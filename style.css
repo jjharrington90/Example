@@ -9,7 +9,7 @@
 
    body {
     position: relative;
-    background-color: #e0e0e0;
+    background-color: #efefef;
     color: #212121;
     line-height: 1.5em;
     display: block;
@@ -49,7 +49,7 @@
     }
 
    .active .nav-link {
-    color: #e0e0e0 !important;
+    color: #bdbdbd !important;
     }
 
    .dropdown-item:hover {
@@ -62,7 +62,7 @@
 
   .jumbotron {
     margin: 30px 0 50px 0;
-    background-color: #bdbdbd;
+    background-color: #efefef;
     display: table;
     position: relative;
     height: 100%;
@@ -71,7 +71,7 @@
     }
 
    .display-4 {
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
     font-family: 'Raleway';
     font-weight: 600;
@@ -165,13 +165,12 @@
   .projects {
     text-align: center;
     margin-bottom: 80px;
-    background-color: #e0e0e0;
     }
 
   /* About Page */
    #about-pic {
     float: left;
-    margin-top: 10px;
+    display: block;
     height: auto;
     max-width: 100%;
     }
@@ -197,7 +196,6 @@
     }
 
    #about-me2 {
-    background-color: #e0e0e0;
     margin: 25px 120px 20px 120px;
     }
 
@@ -230,6 +228,27 @@
         margin: 25px 20px 50px 20px;
         }
       }
+
+      @media only screen and (max-width: 768px) {
+        #about-me { margin-top: 75px; }
+        #about-pic {
+          position: relative;
+          left: 75px;
+          top: 55px;
+          }
+
+        .who-is {
+         margin-top: 0;
+         position: relative;
+         left: 65px;
+          }
+
+        .paragraph-1 {
+          margin-bottom: 0;
+          margin-left: 70px;
+          margin-right: 35px;
+          }
+       }
 
   /* About Page - Image Gallery */
 
