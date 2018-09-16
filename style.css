@@ -95,11 +95,11 @@
     }
 
    #resume-btn {
-    position: relative;
+
     background-color: black;
     color: white;
     margin-top: 30px;
-    margin-right: 10px;
+    margin-right: 15px;
     border: solid 1px black;
     }
 
@@ -117,10 +117,11 @@
     }
 
    #about-btn {
-    position: relative;
+
     background-color: black;
     color: white;
     margin-top: 30px;
+
     padding-left: 20px;
     padding-right: 20px;
     border: solid 1px black;
@@ -369,6 +370,18 @@
         }
 
         #contact {
+          background: linear-gradient(
+                         rgba(25,25,25, 1)0%,
+                         rgba(0,0,0, .2)100%),
+                         url('img/unsplash_small.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          display: table;
+          position: relative;
+          height: 100%;
+          width: 100%;
         padding-bottom: 50px;
         }
        }
