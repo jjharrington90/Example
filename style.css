@@ -139,7 +139,7 @@
 
         .display-4 {
           margin-top: 80px;
-          font-size: 26px;
+          font-size: 28px;
           }
 
         .lead {
@@ -150,14 +150,14 @@
           #resume-btn {
             margin-left: 0;
             width: 100%;
-
-          }
+            }
 
           #about-btn {
             margin-right: 0;
             width: 100%;
-
-          }
+            padding-left: 10px;
+            padding-right: 10px;
+            }
         }
 
   /* Project Section - Home Page */
@@ -303,10 +303,7 @@
 
 /* Contact Form on Contact Page */
   #contact {
-   background: linear-gradient(
-                  rgba(25,25,25, 1)0%,
-                  rgba(0,0,0, .2)100%),
-                  url('img/unsplash.jpg') no-repeat center center fixed;
+   background: url('img/contactpage.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -360,23 +357,13 @@
           font-size: 15px;
           margin: 10px 12px 0px 12px;
           padding: 0;
-        }
+          }
 
         .contact-me {
-          color: #212121;
           margin-top: 50px;
-        }
+          }
 
         #contact {
-          background: url('img/unsplash_small.jpg') no-repeat center center fixed;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-          display: table;
-          position: relative;
-          height: 100%;
-          width: 100%;
         padding-bottom: 50px;
         }
        }
