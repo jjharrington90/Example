@@ -228,27 +228,22 @@
         margin: 25px 20px 50px 20px;
         }
       }
+      @media only screen
+        and (min-width: 768px)
+        and (max-width: 1024px)
+        and (-webkit-min-device-pixel-ratio: 1) {
 
-      @media only screen and (max-width: 768px) {
-        #about-me { margin-top: 75px; }
-        #about-pic {
-          position: relative;
-          left: 75px;
-          top: 55px;
-          }
-
-        .who-is {
-         margin-top: 0;
-         position: relative;
-         left: 65px;
-          }
-
-        .paragraph-1 {
-          margin-bottom: 0;
-          margin-left: 70px;
-          margin-right: 35px;
-          }
-       }
+          #about-pic {
+            margin-top: 50px;
+            position: relative;
+            left: 85px;
+            }
+          .who-is { margin-left: 80px; }
+          .paragraph-1 {
+           margin-right: 15px;
+           margin-left: 90px;
+           }
+        }
 
   /* About Page - Image Gallery */
 
