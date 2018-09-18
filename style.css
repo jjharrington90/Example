@@ -9,7 +9,7 @@
 
    body {
     position: relative;
-    background-color: #efefef;
+    background-color: #f9f9f9;
     color: #212121;
     line-height: 1.5em;
     display: block;
@@ -62,12 +62,10 @@
 
   .jumbotron {
     margin: 30px 0 50px 0;
-    background-color: #efefef;
-    display: table;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
     }
 
    .display-4 {
@@ -119,8 +117,8 @@
     color: white;
     margin-top: 30px;
     margin-left: 10px;
-    padding-left: 26px;
-    padding-right: 26px;
+    padding-left: 27px;
+    padding-right: 27px;
     border: solid 1px black;
     }
 
@@ -155,8 +153,8 @@
           #about-btn {
             margin-right: 0;
             width: 100%;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 19px;
+            padding-right: 19px;
             }
         }
 
@@ -287,7 +285,7 @@
 
    #footer {
     display: block;
-    background-color: #bdbdbd;
+    background-color: #efefef;
     color: #333;
     font-size: 14px;
     }
@@ -316,6 +314,9 @@
 
 
 /* Contact Form on Contact Page */
+#email-form {
+  background-color: #f9f9f9;
+  }
   #contact {
    background: url('img/contactpage.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
