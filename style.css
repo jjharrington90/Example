@@ -156,19 +156,55 @@
             padding-left: 18px;
             padding-right: 18px;
             }
-        }
+           }
 
   /* Project Section - Home Page */
 
-  .projects {
+  #projects-container {
+    max-width: 100%;
+    overflow: hidden;
+    }
+
+  .project-section {
     text-align: center;
     margin-bottom: 80px;
+    max-width: 100%;
     }
+
+  .row { justify-content: center; }
+
+
+
+  #project-1 {
+    width: 358px;
+    height: 200px;
+    background-image: url('img/BootstrapTemplate.png');
+    background-size: cover;
+    background-position: center center;
+    -webkit-filter: grayscale(100%);
+    }
+
+  #project-2 {
+    width: 358px;
+    height: 200px;
+    background-image: url('img/surveyform.png');
+    background-size: cover;
+    background-position: center center;
+    -webkit-filter: grayscale(100%);
+    }
+
+  #project-1:hover,  
+  #project-2:hover {
+    -webkit-filter: grayscale(0%);
+    transition: all 100ms ease-in;
+    }
+
+
+
 
   /* About Page */
    #about-pic {
     float: left;
-    display: block;
     height: auto;
     max-width: 100%;
     }
