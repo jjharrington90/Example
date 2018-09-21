@@ -174,10 +174,10 @@
   .row { justify-content: center; }
 
 
-
   #project-1 {
     width: 358px;
     height: 200px;
+    margin-bottom: 25px;
     background-image: url('img/BootstrapTemplate.png');
     background-size: cover;
     background-position: center center;
@@ -187,13 +187,14 @@
   #project-2 {
     width: 358px;
     height: 200px;
+    margin-bottom: 25px;
     background-image: url('img/surveyform.png');
     background-size: cover;
     background-position: center center;
     -webkit-filter: grayscale(100%);
     }
 
-  #project-1:hover,  
+  #project-1:hover,
   #project-2:hover {
     -webkit-filter: grayscale(0%);
     transition: all 100ms ease-in;
