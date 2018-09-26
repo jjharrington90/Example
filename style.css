@@ -177,10 +177,9 @@
   #project-1 {
     width: 358px;
     height: 200px;
-    background-image: url('img/BootstrapTemplate.png');
+    background-image: url('img/bootstrap.png');
     background-size: cover;
     background-position: center center;
-    -webkit-filter: grayscale(100%);
     }
 
   #project-2 {
@@ -189,7 +188,6 @@
     background-image: url('img/surveyform.png');
     background-size: cover;
     background-position: center center;
-    -webkit-filter: grayscale(100%);
     }
 
   #project-1:hover,
