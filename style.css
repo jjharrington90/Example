@@ -171,43 +171,17 @@
     max-width: 100%;
     }
 
-  .row { justify-content: center; }
+   .btn {background-color: #212121;}
 
-
-  #project-1 {
-    width: 358px;
-    height: 200px;
-    background-image: url('img/bootstrap.png');
-    background-size: cover;
-    background-position: center center;
+   .btn a {
+    text-decoration: none;
+    color: white;
     }
 
-  #project-2 {
-    width: 358px;
-    height: 200px;
-    background-image: url('img/surveyform.png');
-    background-size: cover;
-    background-position: center center;
+   .btn a:hover {
+    color: red;
+    transition: all 300ms ease-in;
     }
-
-  #project-1:hover,
-  #project-2:hover {
-    -webkit-filter: grayscale(0%);
-    transition: all 100ms ease-in;
-    }
-
-    @media only screen and (max-width: 400px) {
-      #project-1 {
-        margin-top: 25px;
-        margin-bottom: 25px;
-        }
-
-      #project-2 {
-        margin-bottom: 25px;
-        }
-       }
-
-
 
   /* About Page */
    #about-pic {
@@ -285,6 +259,10 @@
            margin-left: 90px;
            }
         }
+
+        /* Add a Query for Samsung Galaxy s9+ */
+
+
 
   /* About Page - Image Gallery */
 
