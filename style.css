@@ -196,11 +196,7 @@
     margin: 150px 0px 0 0px;
     }
 
-   .who-is {
-    font-family: 'Raleway';
-    font-weight: bold !important;
-    color: black;
-    }
+
 
    .about-text {
     font-size: 18px;
@@ -227,7 +223,7 @@
         }
 
       .who-is {
-        font-size: 28px;
+
         margin-top: 25px;
         text-align: center;
         }
@@ -387,7 +383,7 @@
 
       @media only screen and (max-width: 400px) {
         .lead-contact {
-          font-size: 15px;
+          font-size: 15.5px;
           margin: 10px 12px 0px 12px;
           padding: 0;
           }
