@@ -132,11 +132,11 @@
 
         .display-4 {
           margin-top: 80px;
-          font-size: 32px;
+          font-size: 30px;
           }
 
         .lead {
-          font-size: 20px;
+          font-size: 18px;
           margin: 10px 15px 0 15px;
           }
 
@@ -149,7 +149,7 @@
           #about-btn {
             margin-right: 0;
             width: 100%;
-            padding: 2% 3%;
+            padding: 2% 3.2%;
             }
            }
 
