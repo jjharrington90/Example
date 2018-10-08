@@ -166,7 +166,6 @@
   /* About Page */
 
    #about-pic {
-    float: left;
     height: auto;
     }
 
@@ -179,8 +178,6 @@
     margin: 150px 0px 0 0px;
     }
 
-
-
    .about-text {
     font-size: 18px;
     margin: 0 50px 0 50px;
@@ -190,53 +187,32 @@
     margin: 25px 120px 20px 120px;
     }
 
-  .d-block {
-    display: block;
-    margin: 0 auto;
-    height: auto;
-    max-width: 100%;
-    }
-
   @media only screen and (max-width: 400px) {
 
-      #about-pic {
-        float: none;
-        display: block;
+       #about-pic {
+        margin-top: 100px;
         margin: 0 auto;
         }
 
-      .who-is {
+       .who-is {
         margin-top: 25px;
-        text-align: left;
+        text-align: center;
         }
 
-      #about-me {
-        margin: 150px 20px 0 20px;
+       #about-me {
+        margin: 0px 0px 0 0px;
         text-align: left;
         max-width: 100%;
         }
 
-      #about-me2 {
-        margin: 25px 20px 50px 20px;
+       #about-me2 {
+        margin: 25px 0px 50px 0px;
+        }
+
+       #background {
+        text-align: center;
         }
       }
-      @media only screen
-        and (min-width: 768px)
-        and (max-width: 1024px)
-        and (-webkit-min-device-pixel-ratio: 1) {
-
-          #about-pic {
-            margin-top: 50px;
-            position: relative;
-            left: 85px;
-            }
-          .who-is { margin-left: 80px; }
-          .paragraph-1 {
-           margin-right: 15px;
-           margin-left: 90px;
-           }
-        }
-
 
 
   /* About Page - Image Gallery */
