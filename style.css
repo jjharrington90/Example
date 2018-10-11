@@ -126,15 +126,17 @@
           }
 
           #resume-btn {
-            padding: 2% 3%;
+            padding: 5%;
             margin-left: 0;
             width: 100%;
+            text-align: center;
             }
 
           #about-btn {
             margin-right: 0;
             width: 100%;
-            padding: 2% 3.2%;
+            padding: 5%;
+            text-align: center;
             }
            }
 
